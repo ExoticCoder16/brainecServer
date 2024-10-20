@@ -1,0 +1,29 @@
+{
+  "name": "brainecserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.29.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "file-type": "^19.5.0",
+    "httpx": "^3.0.1",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.68.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
